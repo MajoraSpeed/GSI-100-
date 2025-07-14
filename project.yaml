@@ -1,0 +1,29 @@
+title: GSI 100% v1.0.0
+version: 1.0.0
+
+route:
+  use: ./main.yaml
+
+config:
+- use: Pistonight/celer-presets/totk/full.yaml
+- icons:
+    
+    golem: https://icons.pistonite.org/icon/misc.flux_construct.none.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+    UH: https://icons.pistonite.org/icon/rune.ultrahand.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+    FUSE: https://icons.pistonite.org/icon/rune.fuse.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+    Recall: https://icons.pistonite.org/icon/rune.recall.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+    ROA: https://icons.pistonite.org/icon/location.sor.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    Ascend: https://icons.pistonite.org/icon/rune.ascend.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+    fairy: https://icons.pistonite.org/icon/character.great_fairy.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+    Kogha: https://icons.pistonite.org/icon/character.kohga.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    ABCS: https://icons.pistonite.org/icon/rune.master_cycle_zero.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    arm: https://icons.pistonite.org/icon/misc.hammer.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    deepths: https://icons.pistonite.org/icon/location.skyview_tower.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+    shrine: https://icons.pistonite.org/icon/shrine.zonai.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    tot: https://icons.pistonite.org/icon/location.sor.none.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+    zelda: https://icons.pistonite.org/icon/character.zelda.none.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+    
+  plugins:
+  - use: split-format
+  - use: link
+  - use: variables

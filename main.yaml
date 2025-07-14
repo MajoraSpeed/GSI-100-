@@ -1,0 +1,120 @@
+- Route for GSI 100% V1.0.0
+- Fast Language is Russian
+- Celer for route amiibo 
+
+- GSI 100%:
+  - Chest:
+     icon: chest
+     notes: CSS to wing Chest
+     movements: 
+      - to: [379,1500,-1688.75]
+  - _Korok::GSI15:
+     notes: Dup 22 wings on the way to the korok
+  - Bridge:
+     notes: Wing Flip to golem 
+     movements:
+      - [317.75,1500,-1712.5]
+      - [454.75,1500,-1309]
+     icon: golem
+  - ToT:
+     movements:
+      - [453.875,1500,-915.375]
+      - [452.125,1500,-885.75]
+     icon: tot
+     notes: MozzDor wing to tot and kill golem with wing and scan tot
+  - _Korok::GSI01:
+     notes: MozzDor Wing to Korok
+  - _Shrine::Ukouh:
+     notes: Finish UH
+  - _Korok::GSI03:
+     notes: MozzDor Wing to Korok
+  - Amiibo scans:
+     notes: Scan 1 amiibo for fleet lotus seed and 5 arrows and dup 15 lotus and cook for speed 3
+     movements:
+      - [105.75,1500,-1127.25]
+      - [114.5,1500,-1172.5]
+     icon: chest
+  - _Korok::GSI04::Start:
+     notes: Use UH to korok for speak
+  - _Korok::GSI04::End
+  - _Shrine::Inisa:
+     notes: After Korok dive in the sky and wing to fuse
+  - _Korok::GSI11
+  - _Cave::Enter::Pondside::A
+  - _Bubbulfrog::PondsideCave
+  - Old Toga Chest:
+     icon: chest
+     coord: [236.75,1500,-1565.5]
+  - _Cave::Enter::Pondside::B
+  - _Korok::GSI13:
+     notes: Equip MS
+  - _Korok::GSI09:
+     notes: Wing to cave and shoot arrow
+  - _Cave::Enter::Mining::B:
+     notes: Exit cave and sheild surf to rail
+  - _Bubbulfrog::MiningCave:
+     notes: Before bubbulfrog speak with blacksmith golem
+  - _Cave::Enter::Mining::A
+  - _Korok::GSI17::Start:
+     notes: UH train car with a turbine and the korok
+  - _Korok::GSI17::End
+  - _Cave::Enter::Pit::B:
+     notes: Slide on rail 
+  - _Bubbulfrog::PitCave:
+     notes: Break rock and take ruby
+  - _Cave::Enter::Pit::A
+  - _Korok::GSI14
+  - _Korok::GSI12
+  - _Cave::Enter::Bottomless::A
+  - _Bubbulfrog::BottomlessCave:
+     notes: Take 2 bombs throw 1 bombs to bubbulfrog and dup 1 ruby and 1 bomb and 2 ruby and 2 bombs
+  - _Cave::Enter::Bottomless::B:
+     notes: During the climb to exit cave fuse 1 bombs and take 1 bomb
+  - _Shrine::Gutanbac:
+     notes: Sheild surf bomb and fuse bomb for sheild and scan ascend
+     comment: In Ascend dup 3 bombs with dive dup and 3 after billy and fuse bomb to platform and fuse bomb for sheild and sheild surf to monk
+  - Old lined stockings Chest:
+     icon: chest
+     coord: [0768,1500,-1338 ]
+     notes: Sheild surf bomb to chest
+  - _Korok::GSI06 
+  - Device Dispenser:
+     coord: [768.5,1500,-1263.5]
+     icon: golem
+     notes: MozzDor Wing towards the Dispenser and wing past him
+  - ToT 2:
+     notes: During the fly fuse 1 bomb on sheild
+     coord: [453,1500,-890]
+     icon: tot
+  - _Warp::TravelMedallion<366.5,1500,-1751.25>:
+     notes: Warp RoA
+  - _Shrine::Nachoyah
+  - Batterie:
+     coord: [0357,1500,-1651] 
+     icon: golem
+     notes: Speak golem
+  - Old Space Chest:
+     coord: [0361,1500,-1632]
+     icon: chest
+     notes: FDC to exit RoA for chest
+  - _Korok::GSI07:
+     notes: Drop wing and go to korok
+  - _Korok::GSI08:
+     notes: FDC
+  - _Boss::FluxConstruct::I:
+     coord: [0492,1500,-1516 ]
+     notes: Throw 3 Ruby from the island then go to wing and throw the last ruby towards the golem
+  - _Korok::GSI10
+  - _Korok::GSI05:
+     notes: Wing to NO
+  - _Warp::Shrine::Ukouh
+  - _Korok::GSI02:
+     notes: Wing to Korok and fuse bomb on sheild
+  - Great Sky Island:
+     notes: Finish GSI
+     coord: [454.5,1500,-636]
+     icon: zelda
+     
+
+
+  
